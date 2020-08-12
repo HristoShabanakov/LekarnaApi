@@ -14,6 +14,7 @@ namespace LekarnaApi
     using Microsoft.IdentityModel.Tokens;
     using System.Text;
     using LekarnaApi.Infrastructure;
+    using LekarnaApi.Data.Models;
 
     public class Startup
     {

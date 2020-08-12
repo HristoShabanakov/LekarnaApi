@@ -12,7 +12,7 @@ namespace LekarnaApi.Infrastructure
         {
             using var services = app.ApplicationServices.CreateScope();
 
-            var  dbContext = services.ServiceProvider.GetService<LekarnaDbContext>();
+            var dbContext = services.ServiceProvider.GetService<LekarnaDbContext>();
 
             dbContext.Database.Migrate();
         }

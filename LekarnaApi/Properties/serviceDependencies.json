@@ -1,5 +1,9 @@
 {
   "dependencies": {
+    "secrets1": {
+      "type": "secrets",
+      "connectionId": "LekarnaApi"
+    },
     "mssql1": {
       "type": "mssql",
       "connectionId": "DefaultConnection"
