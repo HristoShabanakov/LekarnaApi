@@ -9,6 +9,8 @@
             public const int MaxCityLength = 50;
 
             public const int MaxAddressLength = 100;
+
+            public const int MaxNameLength = 50;
         }
     }
 }

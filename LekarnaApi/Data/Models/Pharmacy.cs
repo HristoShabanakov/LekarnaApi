@@ -1,13 +1,15 @@
 ﻿namespace LekarnaApi.Data.Models
 {
-    using LekarnaApi.Models;
-    using System.Collections.Generic;
     using System.ComponentModel.DataAnnotations;
 
     using static Validation.PharmacyValidations;
     public class Pharmacy
     {
         public int Id { get; set; }
+
+        [Requred]
+        [MaxLength(MaxNameLength)]
+        public string Name { get; set; }
 
         [MaxLength(MaxCountryLength)]
         public string Country { get; set; }
